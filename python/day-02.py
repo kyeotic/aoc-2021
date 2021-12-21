@@ -1,6 +1,8 @@
 import os
 from functools import reduce
 
+file_path = '../inputs/day-02.txt'
+
 
 def part1():
     input = get_input()
@@ -65,7 +67,7 @@ def update_aim(position, step):
 
 def get_input():
     input = open(os.path.join(os.path.dirname(__file__),
-                              '../inputs/day-02.txt'), 'r').read()
+                              file_path), 'r').read()
     return input.splitlines()
 
 

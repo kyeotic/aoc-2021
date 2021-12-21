@@ -1,5 +1,7 @@
 import os
 
+file_path = '../inputs/day-01.txt'
+
 
 def part1():
     input = get_input()
@@ -13,7 +15,7 @@ def part2():
 
 def get_input():
     input = open(os.path.join(os.path.dirname(__file__),
-                              '../inputs/day-01.txt'), 'r').read()
+                              file_path), 'r').read()
     return list(map(int, input.splitlines()))
 
 
