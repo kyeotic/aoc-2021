@@ -1,5 +1,4 @@
 import os
-from functools import reduce
 
 file_path = '../inputs/day-N.txt'
 
