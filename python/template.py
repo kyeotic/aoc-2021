@@ -1,4 +1,6 @@
 import os
+import colored_traceback.auto
+
 
 file_path = '../inputs/day-N.txt'
 
